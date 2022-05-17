@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For Ethernet
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+7in1SoilSensor KEYWORD1 7in1SoilSensor
+soildSensor	KEYWORD1	soildSensor 
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+combine	KEYWORD2
+init	KEYWORD2
+readSoildData	KEYWORD2
+getMoist	KEYWORD2
+getTemp	KEYWORD2
+getConductivity	KEYWORD2
+getPH	KEYWORD2
+getNitrogen	KEYWORD2
+getPhosphorus	KEYWORD2
+getPotassium	KEYWORD2 
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+RX_pin	LITERAL1
+TX_pin	LITERAL1
+readDataCommand	LITERAL1 
