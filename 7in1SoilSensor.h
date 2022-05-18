@@ -21,7 +21,7 @@ class soildSensor{
         uint32_t lastReadData;
     public:
         uint8_t values[20];
-        soildSensor(uint8_t RX_pin,uint8_t TX_pin);
+        soildSensor(uint8_t RX_pin,uint8_t TX_pin,uint8_t Driver_Receiver_Enable_Pin);
         void init();
         void readSoildData();
         float getMoist();
@@ -31,7 +31,7 @@ class soildSensor{
         float getNitrogen();
         float getPhosphorus();
         float getPotassium(); 
-}
+};
 
 
 #endif
